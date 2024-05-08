@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'futurak';
+    src: url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('truetype'),
+        url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background-color: black;
+    width: 84.3rem;
+    height: 5.2rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-right: 4rem;
+
+}
+
+ul li a {
+    text-align: center;
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+button {
+    height: 2.5rem;
+    width: 8rem;
+    color: white;
+    margin-left: 30px;
+    border-radius: 20px;
+
+}
+
+.b-two {
+    background-color: red;
+    border: 1px solid black;
+}
+
+.b-one {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.logo-image {
+    position: absolute;
+    height: 5rem;
+    width: 10rem;
+    margin-left: 100px;
+}
+
+body {
+    font-family: 'Yu Gothic Light';
+
+}
+
+nav {
+    padding: 35px 25px;
+    align-items: center;
+}
+
+.pic-div img {
+    height: 40%;
+    width: 100%;
+}
+
+div.container-order {
+    background-color: black;
+    text-align: center;
+}
+
+.hone-font {
+    font-family: 'futurak';
+    font-size: 90px;
+}
+
+h2,
+.hone-font {
+    padding-top: 50px;
+    color: white;
+}
+
+.hone-font {
+    font-size: 60px;
+}
+
+h2 {
+    font-weight: 900px;
+    font-size: 35px;
+}
+
+p {
+    color: rgb(190, 194, 191);
+}
+
+div .link-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.link-img img {
+    width: 250px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.red-imgs {
+    margin-left: 30px;
+
+}
+
+.green-imgs {
+    margin-left: 30px;
+}
+
+
+.-imgs {
+    margin-left: 30px;
+
+}
+
+.btn {
+    margin-top: 30px;
+    height: 45px;
+    width: 160px;
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    margin-right: 30px;
+    border-radius: 30px;
+    margin-bottom: 160px;
+}
+
+#maindiv {
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url(asset/s\ logo\ in\ 2nd\ section.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+}
+
+small {
+    color: #ED1C24;
+    letter-spacing: 8px;
+    font-size: 15px;
+}
+
+h3,
+.htwo-font {
+    color: white;
+    font-size: 30px;
+
+}
+
+.htwo-font {
+    font-family: 'futurak';
+}
+
+.btn-1 {
+    margin-top: 30px;
+    height: 45px;
+    width: 160px;
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    margin-right: 30px;
+    border-radius: 30px;
+    margin-bottom: 160px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: white;
+    transition: ease 0.3s;
+
+    color: black;
+    cursor: pointer;
+}
+
+.btn-1 img {
+    position: absolute;
+}
+
+.islamabad-placement,
+.fasilabad-placement,
+.bahawalpur-placement {
+    display: flex;
+    justify-content: space-around;
+}
+
+.islamabad-div {
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.islamabad-pic {
+    margin-top: 50px;
+    margin-right: 100px;
+
+}
+
+/* 3rd div css work */
+.franchises-heading{
+    background-color: black;
+    padding-top: 10px;
+}
+#franchises{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-top: 10px;
+}
+.intro{
+    color: white;
+    font-family: 'futurak';
+    text-align: center;
+}
+
+
+.main-heading{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.franchises-pic {
+    height: 250px;
+    width: 330px;
+}
+
+.village{
+    background-color: rgb(30, 31, 30);
+}
+
+div .pic-v img{
+    width: 30%;
+    height: 40%;
+}
+.btn-one{
+    width: 130px;
+    height: 45px;
+    border: 1px solid  #28a745;
+    background-color:  #28a745;
+    border-radius: 30px;
+    color: white;
+    
+}
+
+.village-pic{
+    display: flex;
+    justify-content: space-between;
+}
+
+.village-span{
+font-size:larger;
+font-family: 'futurak';
+}
+
+.opening{
+    background-color: black;
+    height: 1400px;
+    width: 100%;
+}
+.opening-map1,.opening-map2,.opening-map3{
+display: flex;
+justify-content: space-evenly;
+margin-top: 30px;
+}
+.opening-map1 img,.opening-map2 img,.opening-map3 img{ 
+    border-radius: 5px;
+}
+.social-pic img{
+height: 240px;
+width: 240px;
+}
+.food-pic{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social h2{
+    text-align: center;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.9);
+color: rgb(163, 163, 163);
+}
+.f-logo  img{
+    height: 70px;
+    width: 170px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.footer h4{
+color: white;
+}
+ .footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f-aboutme{
+    display: flex;
+    
+}
+.about-me2{
+    margin-left: 60% ;
+}
+.about-me1{
+    margin-left: 5% ;
+}
+@media screen and (min-width:700rem)and (max-width:100rem){
+    
+}
